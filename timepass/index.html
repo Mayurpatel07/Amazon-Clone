@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background-color: #0F1111;
+    height: 58px;
+    width: 99.80%;
+    border: 2px solid #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+/*--------------------------------------------------- BOX1----------------------------------------------------------------------------- */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* ----------------------------------------------------BOX2 ------------------------------------------------------------------------*/
+
+.location-icon {
+    display: flex;
+}
+
+.line1 {
+    color: #cccccc;
+    font-size: 0.9rem;
+    margin-left: 15px;
+}
+
+.line2 {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* -----------------------------------------------------BOX3------------------------------------------------------------------------ */
+
+.nav-search {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.Orange:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.Search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #feb668;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+
+}
+
+/* -----------------------------------------------------------BOX4---------------------------------------------------------------- */
+
+.nav-first {
+    font-size: 0.85rem;
+}
+
+.nav-sec {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* -----------------------------------------------------------BOX5-------------------------------------------------------------------- */
+.cart {
+    display: flex;
+    align-items: end;
+
+}
+
+.cart-icon {
+    font-size: 30px;
+    margin-right: 3px;
+}
+
+.cart-line {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    height: 37px;
+    color: #ffffff;
+}
+
+.panelAll {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.panel-opt p {
+    display: inline;
+    margin-left: 15px;
+
+
+}
+
+.panel-opt {
+    width: 70%;
+    font-size: 0.8.5rem;
+}
+
+.panel-deals {
+    font-family: 0.9rem;
+    font-weight: 700;
+}
+
+/* -----------------------------------------------------------Hero Section---------------------------------------------------------- */
+.hero-section {
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.hero-text {
+    font-size: 0.85rem;
+    background-color: white;
+    height: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+
+.hero-text a {
+    color: #007185;
+}
+
+/* ----------------------------------------------------shop-section-------------------------------------------------------------------- */
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    margin: 15px;
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 22.5%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-contain {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.box-contain p {
+    color: #007185;
+}
+
+/* ---------------------------------------------footer---------------------------------------------------------- */
+
+.footer{
+    margin-top: 15px;
+}
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.foot-panel2{
+   
+    background-color: #222f3d;
+    color: white;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    border-top: 0.2px solid #3a4553;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+}
+.foot-panel4{
+    background-color: #0F1111;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 0.7rem;
+text-align: center;
+}
+
+.pages{
+padding-top: 20px;
+}
+.pages a{
+    padding-left: 10px;
+}
+.copyrights{
+    margin-top: 5px;
+}
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
+        <div class="location border">
+            <p class="line1">Deliver to </p>
+            <div class="location-icon">
+                <img src="location-logo.png" height="18px" alt="">
+                <p class="line2">India</p>
+            </div>
+        </div>
+
+        <div class="nav-search Orange">
+            <select class="search-select">
+                <option>
+                    All
+                </option>
+            </select>
+            <input placeholder="Search Amazon" class="search-input">
+            <spam class="Search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </spam>
+        </div>
+        <div class="sign border">
+            <spam class=" nav-first">
+                <p>Hello, sign in</p>
+            </spam>
+            <p class="nav-sec"> Account & Lists</p>
+        </div>
+        <div class="sign border">
+            <spam class=" nav-first">
+                <p>Returns</p>
+            </spam>
+            <p class="nav-sec"> & Orders</p>
+        </div>
+        <div class="cart border">
+
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <p class="cart-line">cart</p>
+        </div>
+    </div>
+    <div class="panel">
+
+        <div class="panelAll">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-opt">
+            <p> Today's Deals</p>
+            <p>Customer Service</p>
+            <p>Registry</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+        </div>
+        <div class="panel-deals">
+            <p>Shop Deals in Electronic</p>
+        </div>
+    </div>
+</header>
+<div class="hero-section">
+    <div class="hero-text">
+        <p>You are on amazon.com. You can also shop on Amazon Germany for millions of products with fast local
+            delivery. <a>Click here to go to amazon.de</a> </p>
+    </div>
+</div>
+<div class="shop-section">
+    <div class="box1 box Orange">
+        <div class="box-contain">
+            <h2>Cloths</h2>
+            <div class="box-img" style="background-image: url('box1_image.jpg');"> </div>
+            <p>See More</p>
+        </div>
+    </div>
+    <div class="box2 box Orange">
+        <div class="box-contain">
+            <h2>Health & Presonal care</h2>
+            <div class="box-img" style="background-image: url('box2_image.jpg');"> </div>
+            <p>See More</p>
+        </div>
+    </div>
+    <div class="box3 box Orange">
+        <div class="box-contain">
+            <h2>Furniture</h2>
+            <div class="box-img" style="background-image: url('box3_image.jpg');"> </div>
+            <p>See More</p>
+        </div>
+    </div>
+    <div class="box4 box Orange">
+        <div class="box-contain">
+            <h2>Smartphones</h2>
+            <div class="box-img" style="background-image: url('box4_image.jpg');"> </div>
+            <p>See More</p>
+        </div>
+    </div>
+    <div class="box1 box Orange">
+        <div class="box-contain">
+            <h2>Beauty Picks</h2>
+            <div class="box-img" style="background-image: url('box5_image.jpg');"> </div>
+            <p>See More</p>
+        </div>
+    </div>
+    <div class="box2 box Orange">
+        <div class="box-contain">
+            <h2>Pets Care</h2>
+            <div class="box-img" style="background-image: url('box6_image.jpg');"> </div>
+            <p>See More</p>
+        </div>
+    </div>
+    <div class="box3 box Orange">
+        <div class="box-contain">
+            <h2>Toys To Play</h2>
+            <div class="box-img" style="background-image: url('box7_image.jpg');"> </div>
+            <p>See More</p>
+        </div>
+    </div>
+    <div class="box4 box Orange">
+        <div class="box-contain">
+            <h2>Discover Fasion Trents</h2>
+            <div class="box-img" style="background-image: url('box8_image.jpg');"> </div>
+            <p>See More</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="foot-panel1">
+        back-to-top
+    </div>
+    <div class="foot-panel2">
+        <ul>
+            <p>Get to Know Us</p>
+            <a>Careers</a>
+            <a>About Us</a>
+            <a>UK Modern </a>
+            <a>Sustainability</a>
+            <a>Amazon Science</a>
+        </ul>
+        <ul>
+            <p>Make Money with Us</p>
+            <a>Sell on Amazon Business</a>
+            <a>Sell on Amazon Handmade</a>
+            <a> Sell on Amazon Launchpad</a>
+            <a>Sell on Amazon Launchpad</a>
+            <a>Supply to Amazon</a>
+            <a>Fulfilment by Amazon</a>
+            <a>Seller Fulfilled Prime</a>
+            <a>Advertise Your Products</a>
+            <a>Independently Publish with Us</a>
+            <a>Host an Amazon Hub</a>
+            <a>Amazon Pay</a>
+            <a>›See More Make Money with Us</a>
+        </ul>
+        <ul>
+            <p>Amazon Payment Methods</p>
+            <a>Instalments by Barclays</a>
+            <a>Amazon Platinum Mastercard</a>
+            <a>Amazon Classic Mastercard </a>
+            <a>Amazon Currency Converter</a>
+            <a>Payment Methods Help</a>
+            <a>Shop with Points</a>
+            <a>Top Up Your Account</a>
+            <a>Top Up Your Account in Store</a>
+        </ul>
+        <ul>
+            <p>Let Us Help You</p>
+            <a>COVID-19 and Amazon</a>
+            <a>Track Packages or View Orders</a>
+            <a>Delivery Rates & Policies</a>
+            <a>Amazon Prime</a>
+            <a>Returns & Replacements</a>
+            <a>Manage Your Content and Devices</a>
+            <a>Recalls and Product Safety Alerts</a>
+            <a>Amazon Mobile App</a>
+            <a>Customer Service</a>
+            <a>Accessibility</a>
+        </ul>
+    </div>
+    <div class="foot-panel3">
+   <div class="foot-logo">
+   </div>
+    </div>
+    <div class="foot-panel4">
+        <div class="pages">
+      <a>Conditions of Use & Sale</a>
+      <a>Privacy Notice</a>
+      <a>Cookies Notice</a>
+      <a>Interest-Based Ads Notice</a>
+    </div>
+    <div class="copyrights">
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+    </div>
+    </div>
+</footer>
+</body>
+</html>
